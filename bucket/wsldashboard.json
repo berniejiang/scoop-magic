@@ -9,6 +9,9 @@
             "hash": "89feea72698b4ba6358c4a6bb5c7b00870519edf61ce6a3916f7c7aee67efd5d"
         }
     },
+    "pre_install": [
+        "Rename-Item 'WSLDashboard.$version.Portable.x64.exe' 'wsldashboard.exe'"
+    ],
     "bin": "wsldashboard.exe",
     "shortcuts": [
         [
