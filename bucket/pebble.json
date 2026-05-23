@@ -1,0 +1,35 @@
+{
+    "version": "0.0.8",
+    "description": "A small yet beautiful email client.",
+    "homepage": "https://github.com/QingJ01/Pebble",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/QingJ01/Pebble/releases/download/v0.0.8/Pebble_0.0.8_x64-setup.exe",
+            "hash": "5d0fcd0008aa62e9fd8486e3902f05673e4d8d6a512b9688e7c3b20ee7cd55de"
+        }
+    },
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Pebble.exe",
+            "Pebble"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/QingJ01/Pebble/releases/download/v$version/Pebble_$version_x64-setup.exe",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
