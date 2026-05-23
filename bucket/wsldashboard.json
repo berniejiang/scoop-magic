@@ -10,7 +10,8 @@
         }
     },
     "pre_install": [
-        "Get-ChildItem 'WSLDashboard.*.Portable.x64.exe' | Rename-Item -NewName 'wsldashboard.exe'"
+        "$file = Get-ChildItem 'WSLDashboard.*.Portable.x64.exe' -ErrorAction SilentlyContinue | Select-Object -First 1",
+        "if ($file) { Rename-Item -LiteralPath $file.FullName 'wsldashboard.exe' -Force }"
     ],
     "bin": "wsldashboard.exe",
     "shortcuts": [
