@@ -10,8 +10,8 @@
         }
     },
     "pre_install": [
-        "Rename-Item 'WSLDashboard.$version.Portable.x64.exe' 'wsldashboard.exe'"
-    ],
+        "Rename-Item \"WSLDashboard.*.Portable.x64.exe\" \"wsldashboard.exe\""
+    ]
     "bin": "wsldashboard.exe",
     "shortcuts": [
         [
