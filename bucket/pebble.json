@@ -9,7 +9,12 @@
             "hash": "5d0fcd0008aa62e9fd8486e3902f05673e4d8d6a512b9688e7c3b20ee7cd55de"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction Ignore",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
     "shortcuts": [
         [
             "Pebble.exe",
