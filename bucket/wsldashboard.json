@@ -9,12 +9,7 @@
             "hash": "89feea72698b4ba6358c4a6bb5c7b00870519edf61ce6a3916f7c7aee67efd5d"
         }
     },
-    "pre_install": [
-        "Push-Location",
-        "cd \"$PSScriptRoot\"",
-        "Get-ChildItem 'WSLDashboard.*.Portable.x64.exe' | Rename-Item -NewName 'wsldashboard.exe' -Force",
-        "Pop-Location"
-    ],
+    "pre_install": "Get-ChildItem \"$dir\\WSLDashboard.*.Portable.x64.exe\" | Rename-Item -NewName 'wsldashboard.exe' | Out-Null",
     "bin": "wsldashboard.exe",
     "shortcuts": [
         [
