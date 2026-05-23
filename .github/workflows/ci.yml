@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        PowerShell: [5, 7]
+      fail-fast: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Clone Scoop
+        shell: pwsh
+        run: |
+          $scoopDir = "${{ github.workspace }}\scoop"
+          if (!(Test-Path $scoopDir)) {
+            git clone -q --depth=1 https://github.com/lukesampson/scoop $scoopDir
+          }
+          "SCOOP_HOME=$scoopDir" >> $env:GITHUB_ENV
+
+      - name: Init (PowerShell ${{ matrix.PowerShell }})
+        shell: pwsh
+        run: |
+          . "$env:SCOOP_HOME\test\bin\init.ps1"
+
+      - name: Run Tests (PowerShell ${{ matrix.PowerShell }})
+        if: matrix.PowerShell == 5
+        shell: powershell
+        run: |
+          . "$env:SCOOP_HOME\test\bin\test.ps1" -TestPath "$env:GITHUB_WORKSPACE"
+
+      - name: Run Tests (PowerShell ${{ matrix.PowerShell }})
+        if: matrix.PowerShell == 7
+        shell: pwsh
+        run: |
+          . "$env:SCOOP_HOME\test\bin\test.ps1" -TestPath "$env:GITHUB_WORKSPACE"
