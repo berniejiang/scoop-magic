@@ -5,16 +5,11 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/QingJ01/Pebble/releases/download/v0.0.9/Pebble_0.0.9_x64-setup.exe",
+            "url": "https://github.com/QingJ01/Pebble/releases/download/v0.0.9/Pebble_0.0.9_x64-setup.exe#/dl.7z",
             "hash": "8e7cffe0ffa0bfbc9bddf12afaf28bb23a0d6f53627d8a0bcac7712e786d3a18"
         }
     },
-    "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
-        ]
-    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
     "shortcuts": [
         [
             "Pebble.exe",
@@ -25,10 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/QingJ01/Pebble/releases/download/v$version/Pebble_$version_x64-setup.exe",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+                "url": "https://github.com/QingJ01/Pebble/releases/download/v$version/Pebble_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
