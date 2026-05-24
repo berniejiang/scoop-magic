@@ -9,12 +9,6 @@
             "hash": "5e3248c914e73fd6d8ac70768922de8a37d174ac720cf52324e3ea7d2b64da78"
         }
     },
-    "installer": {
-        "args": [
-            "/S",
-            "/D=$dir"
-        ]
-    },
     "shortcuts": [
         [
             "terax.exe",
