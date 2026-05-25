@@ -1,0 +1,27 @@
+{
+    "version": "2026.05.22.preview",
+    "description": "Zap is an open, local-first terminal with first-class AI and agent support.",
+    "homepage": "https://github.com/zerx-lab/zap",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zerx-lab/zap/releases/download/v2026.05.22.preview/ZapSetup.exe",
+            "hash": "d578abd2cb023faf37837ae2e67f6827945367a46c223187cb02aad061cfebbb"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "zap.exe",
+            "zap"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zerx-lab/zap/releases/download/v$version/ZapSetup.exe"
+            }
+        }
+    }
+}
