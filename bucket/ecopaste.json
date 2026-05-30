@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0/EcoPaste_0.5.0_x64-setup.exe#/dl.7z",
-            "hash": "c95dd2bd06ab5cfe392c0a3f63688b44a11abed19f9f44a5becf47500fd6cc35"
+            "hash": "68238222EB29FBDDFEC98C55D039591F224CFA6785DA577676EE05E1174AFFC3"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
