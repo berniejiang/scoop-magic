@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/h4ckf0r0day/obscura/releases/download/v0.1.6/obscura-x86_64-windows.zip",
-            "hash": "b2816e506390a89941c63c9187d58a3cc10e9a55f2ef0685f9ea0eccaf7c98c8"
+            "hash": "0c6f0f7075856052ca8ba23af30b1fffaed06bc2056d1fcafceb999458d2ec1d"
         }
     },
     "bin": "obscura.exe",
