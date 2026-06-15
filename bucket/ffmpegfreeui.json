@@ -20,7 +20,6 @@
         "$settingsFile = Join-Path $persist_dir 'Settings.json'",
         "if (!(Test-Path $settingsFile)) { New-Item -ItemType File -Path $settingsFile | Out-Null }"
     ],
-    "bin": "FFmpegFreeUI.exe",
     "persist": "Settings.json",
     "checkver": {
         "github": "https://github.com/Lake1059/FFmpegFreeUI",
