@@ -1,12 +1,12 @@
 {
-    "version": "1.24.0",
+    "version": "1.25.0",
     "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
     "homepage": "https://github.com/xingkongliang/skills-manager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xingkongliang/skills-manager/releases/download/v1.24.0/skills-manager_1.24.0_x64-setup.exe#/dl.7z",
-            "hash": "b81b88a7895a04c4451166f35d90c1fe9edcbc966d3ce4a04a450e92b40fc47d"
+            "url": "https://github.com/xingkongliang/skills-manager/releases/download/v1.25.0/skills-manager_1.25.0_x64-setup.exe#/dl.7z",
+            "hash": "3262336c9522f33fd310e7ccdc3e0cbec91fdd5a002b306c673bb17abedbaf65"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
