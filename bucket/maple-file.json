@@ -15,6 +15,7 @@
             "红枫云盘"
         ]
     ],
+    "persist": "server.db",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
