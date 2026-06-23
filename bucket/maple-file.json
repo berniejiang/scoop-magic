@@ -9,6 +9,10 @@
             "hash": "f4c48941fa1056f7b85294d69f140da5344d4fabe4380d5399d4409b0fa7fed9"
         }
     },
+    "pre_install": [
+        "$dbFile = Join-Path $persist_dir 'server.db'",
+        "if (!(Test-Path $dbFile)) { New-Item -ItemType File -Path $dbFile | Out-Null }"
+    ],
     "shortcuts": [
         [
             "maple_file.exe",
