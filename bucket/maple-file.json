@@ -1,0 +1,26 @@
+{
+    "version": "1.2.0",
+    "description": "Multi-protocol cloud file upload and management with serverless.",
+    "homepage": "https://github.com/honmaple/maple-file",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/honmaple/maple-file/releases/download/v1.2.0/maple-file-1.2.0-windows-x86_64.zip#/dl.7z",
+            "hash": "f4c48941fa1056f7b85294d69f140da5344d4fabe4380d5399d4409b0fa7fed9"
+        }
+    },
+    "shortcuts": [
+        [
+            "maple_file.exe",
+            "红枫云盘"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/honmaple/maple-file/releases/download/v$version/maple-file-$version-windows-x86_64.zip#/dl.7z"
+            }
+        }
+    }
+}
