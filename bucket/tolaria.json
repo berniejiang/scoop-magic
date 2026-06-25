@@ -16,10 +16,7 @@
             "Tolaria"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/refactoringhq/tolaria",
-        "regex": "/releases/tag/v\\d{4}-\\d{2}-\\d{2}"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
