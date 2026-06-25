@@ -16,12 +16,19 @@
             "Tolaria"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/refactoringhq/tolaria",
+        "regex": "v(\\d{4})-(\\d{2})-(\\d{2})",
+        "replace": "$1.$2.$3"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$version/Tolaria_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$version/Tolaria_$originalVersion_x64-setup.exe#/dl.7z"
             }
+        },
+        "replace": {
+            ".": "-"
         }
     }
 }
