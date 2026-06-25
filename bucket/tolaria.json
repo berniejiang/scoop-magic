@@ -24,11 +24,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$version/Tolaria_$originalVersion_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$match1-$match2-$match3/Tolaria_$version_x64-setup.exe#/dl.7z"
             }
-        },
-        "replace": {
-            ".": "-"
         }
     }
 }
