@@ -1,5 +1,5 @@
 {
-    "version": "2026.6.14",
+    "version": "2026-06-14",
     "description": "Desktop app to manage markdown knowledge bases.",
     "homepage": "https://github.com/refactoringhq/tolaria",
     "license": "AGPL-3.0",
@@ -18,13 +18,12 @@
     ],
     "checkver": {
         "github": "https://github.com/refactoringhq/tolaria",
-        "regex": "v(\\d{4})-(\\d{2})-(\\d{2})",
-        "replace": "$1.$2.$3"
+        "regex": "v(\\d{4})-0?(\\d{1,2})-0?(\\d{1,2})"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$match1-$match2-$match3/Tolaria_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/refactoringhq/tolaria/releases/download/v$version/Tolaria_$match1.$match2.$match3_x64-setup.exe#/dl.7z"
             }
         }
     }
