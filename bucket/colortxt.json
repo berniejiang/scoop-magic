@@ -1,12 +1,12 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "A local TXT ebook reader with text highlighting features for a brand-new reading experience! It also supports mainstream e-book formats including .epub, and comes with practical functions such as chapter recognition, blank line compression, first-line indentation, text-to-speech and an AI reading assistant. Compatible with macOS, Windows and Linux.",
     "homepage": "https://github.com/ssnangua/ColorTxt",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ssnangua/ColorTxt/releases/download/v3.2.1/colortxt-3.2.1-Setup.exe#/dl.7z",
-            "hash": "df346a7fe5d7f7ea62458523532b57261ca06fe053375dced9e2947981d9a102",
+            "url": "https://github.com/ssnangua/ColorTxt/releases/download/v3.2.2/colortxt-3.2.2-Setup.exe#/dl.7z",
+            "hash": "931d992bf7c9dfc75176c577ae2981d94713eebfb5fad2102c8d5bb668e983d3",
             "pre_install": "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
         }
     },
