@@ -1,12 +1,12 @@
 {
-    "version": "1.1.18",
+    "version": "1.2.0",
     "description": "A modern remote terminal workspace.",
     "homepage": "https://github.com/nyakang/nyaterm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nyakang/nyaterm/releases/download/v1.1.18/NyaTerm_1.1.18_windows_x64_portable.zip#/dl.7z",
-            "hash": "0ff1e3a342c069495a72e0c770b00527fabc44bab30ab99824989d8470c53db3"
+            "url": "https://github.com/nyakang/nyaterm/releases/download/v1.2.0/NyaTerm_1.2.0_windows_x64_portable.zip#/dl.7z",
+            "hash": "429bc95ab0647e4a9f991e3d3ae265838db98a4133ca74e444dea8a87e933e0f"
         }
     },
     "extract_dir": "NyaTerm-portable",
