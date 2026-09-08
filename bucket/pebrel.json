@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Kuddev/pebrel/releases/download/v1.6.0/Pebrel-v1.6.0-windows-x64.zip#/dl.7z",
-            "hash": "9b2413144c0434e29749ccbd5c2b0f93e930dafd22634dd70d34b763037e0da4"
+            "hash": "d57f9c61988ca950da1088415717137b85e022475e046d611f3595b48e66ce2d"
         }
     },
     "shortcuts": [
