@@ -1,25 +1,25 @@
 {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
-    "homepage": "https://github.com/Kuddev/nebula",
+    "homepage": "https://github.com/Kuddev/pebrel",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuddev/nebula/releases/download/v1.5.0/NebulaTerminal-v1.5.0-windows-x64.zip#/dl.7z",
+            "url": "https://github.com/Kuddev/pebrel/releases/download/v1.6.0/Pebrel-v1.6.0-windows-x64.zip#/dl.7z",
             "hash": "9b2413144c0434e29749ccbd5c2b0f93e930dafd22634dd70d34b763037e0da4"
         }
     },
     "shortcuts": [
         [
-            "NebulaTerminal.exe",
-            "NebulaTerminal"
+            "Pebrel.exe",
+            "Pebrel"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kuddev/nebula/releases/download/v$version/NebulaTerminal-v$version-windows-x64.zip#/dl.7z"
+                "url": "https://github.com/Kuddev/pebrel/releases/download/v$version/Pebrel-v$version-windows-x64.zip#/dl.7z"
             }
         }
     }
