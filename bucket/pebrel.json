@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
     "homepage": "https://github.com/Kuddev/pebrel",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuddev/pebrel/releases/download/v1.6.0/Pebrel-v1.6.0-windows-x64.zip#/dl.7z",
-            "hash": "d57f9c61988ca950da1088415717137b85e022475e046d611f3595b48e66ce2d"
+            "url": "https://github.com/Kuddev/pebrel/releases/download/v1.7.0/Pebrel-v1.7.0-windows-x64.zip#/dl.7z",
+            "hash": "412c192b7d64754f5e4fa4ee930e89bb3d229e5e53b40cf6b26cd802640d4c49"
         }
     },
     "shortcuts": [
