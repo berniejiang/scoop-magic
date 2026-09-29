@@ -1,12 +1,12 @@
 {
-    "version": "2.6.0",
+    "version": "2.7.2",
     "description": "A free, elegant Markdown editor for macOS, Windows and Linux. Simple by design, always in sync with the file on disk.",
     "homepage": "https://github.com/marswaveai/ColaMD",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/marswaveai/ColaMD/releases/download/v2.6.0/ColaMD-2.6.0-win-x64.zip#/dl.7z",
-            "hash": "66ea5d7d0978ca245d59a3c1fd292039402d12b8b12812bd0b6d3582d346b791"
+            "url": "https://github.com/marswaveai/ColaMD/releases/download/v2.7.2/ColaMD-2.7.2-win-x64.zip#/dl.7z",
+            "hash": "0c8bccd47332b49d405222fcca6286b01af15a8ecc6750aaa0b3dc65d886ca0f"
         }
     },
     "shortcuts": [
