@@ -1,16 +1,16 @@
 {
-    "version": "2.4.15",
+    "version": "2.4.16",
     "description": "A downloader for Tomato Novel",
     "homepage": "https://github.com/zhongbai2333/Tomato-Novel-Downloader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v2.4.15/TomatoNovelDownloader-Win64-v2.4.15.exe#/TomatoNovelDownloader.exe",
-            "hash": "4e3cdf7890005a9d26615ccfbb7c5daca30a16850fcb6ac48ca1ab209a4eb893"
+            "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v2.4.16/TomatoNovelDownloader-Win64-v2.4.16.exe#/TomatoNovelDownloader.exe",
+            "hash": "7ad4ce3d4b104edac8fbba83a646fc687b6e2da3b7ca3880cfdfa1f363b05041"
         },
         "arm64": {
-            "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v2.4.15/TomatoNovelDownloader-WinArm64-v2.4.15.exe#/TomatoNovelDownloader.exe",
-            "hash": "b6a8ebc1f3d804549d98f1f2f287c6249661fd63dc940fd99277af2c11c340ef"
+            "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v2.4.16/TomatoNovelDownloader-WinArm64-v2.4.16.exe#/TomatoNovelDownloader.exe",
+            "hash": "c9235502459ec546f0250a3a1c1b1264e5d295c6fbe5f2cbe39a8fc0dfc01a4b"
         }
     },
     "bin": "TomatoNovelDownloader.exe",
