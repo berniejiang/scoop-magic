@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "description": "一款现代、浅色主题的 Windows 磁盘使用分析器，灵感来自 Linux 的 ncdu",
+    "homepage": "https://github.com/xiaodingfeng/ncdu-win-qt",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xiaodingfeng/ncdu-win-qt/releases/download/2.0.0-r/NcduWin_2.0.0_x64-portable.zip",
+            "hash": "sha256:8a0c6b4cb156baa6b0a63833e29791d5cb95fc202cfb053657adc14ce5afcecd"
+        }
+    },
+    "shortcuts": [
+        [
+            "NcduWin.exe",
+            "NcduWin"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xiaodingfeng/ncdu-win-qt/releases/download/$version-r/NcduWin_$version_x64-portable.zip"
+            }
+        }
+    }
+}
