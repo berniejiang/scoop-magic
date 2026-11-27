@@ -1,12 +1,12 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.10",
     "description": "A powerful, open-source JSON visualization and editing tool for developers.",
     "homepage": "https://github.com/hendurhance/pandia",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hendurhance/pandia/releases/download/v1.0.8/Pandia_1.0.8_x64-setup.exe#/dl.7z",
-            "hash": "sha256:7f95f35a237058d27c667424619f3b16e1b71075ede793e6c2f7b88897b142c6"
+            "url": "https://github.com/hendurhance/pandia/releases/download/v1.0.10/Pandia_1.0.10_x64-setup.exe#/dl.7z",
+            "hash": "44e5cd68ed412a7dcc1a7e85d92ba939310e6577236900454e4666e40f5d84ad"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
