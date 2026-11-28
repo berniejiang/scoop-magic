@@ -1,0 +1,27 @@
+{
+    "version": "0.5.1",
+    "description": "The local-first, AI-native email client—lightweight, fast, and built to unite all your inboxes effortlessly.",
+    "homepage": "https://github.com/GuqierMcl/MailX",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GuqierMcl/MailX/releases/download/v0.5.1/MailX_0.5.1_windows-x64-setup.exe#/dl.7z",
+            "hash": "sha256:9d8af4c1b2564c53548ce79ee38e44c68b8a2846222e99032d96f17a2fcf0ba7"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
+    "shortcuts": [
+        [
+            "mailx-desktop.exe",
+            "MailX"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GuqierMcl/MailX/releases/download/v$version/MailX_$version_windows-x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
